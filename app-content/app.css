@@ -1,0 +1,5 @@
+﻿.ng-table th.sortable .sort-indicator:before{
+  border-top: 4px solid red;
+}
+
+

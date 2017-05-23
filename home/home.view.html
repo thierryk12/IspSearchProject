@@ -1,0 +1,16 @@
+<div class="col-md-20">
+    <table ng-table="vm.tableParams" class="table table-bordered  table-striped" show-filter="true">
+        <tr ng-repeat="isp in $data">
+            <td   data-title="'cdn'" sortable="'cdn'">
+                {{isp.cdn}}</td>
+            <td   title="'p2p'" sortable="'p2p'">
+                {{isp.p2p}}</td>
+            <td  title="'Total'" sortable="'Total'">
+                {{isp.total}}</td>
+            <td  class="col-md-1" title="'percentage'" sortable="'percentage'" filter="{percentage: 'number'}">
+                {{isp.percentage}}</td>
+            <td  class="col-md-4" title="'isp'" sortable="'isp'">
+                {{isp.isp}}</td>
+        </tr>
+    </table>
+</div>
